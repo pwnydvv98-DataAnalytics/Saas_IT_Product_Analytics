@@ -1,0 +1,12 @@
+# Exclude heavy CSV dumps
+Clean table/*.csv
+*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+
+# Power BI temp files
+~$*.pbix
