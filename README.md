@@ -88,17 +88,19 @@ USE saas;
 
 -- Execute schema DDL, data loading, and analytical queries
 SOURCE SQL Work/Complete SQL Work.sql;
-
-###2. Python Environment & Retention Script
-Bash
+```
+### 2. Python Environment & Retention Script
+```Bash
 cd "python work"
 pip install pandas numpy matplotlib seaborn
 python event.py
-3. Power BI Configuration
-Open power bi/Saas IT.pbix in Power BI Desktop.
+```
+### 3. Power BI Configuration
+```Open power bi/Saas IT.pbix in Power BI Desktop.
 
 Navigate to Transform Data > Data source settings.
 
 Set your MySQL server connection to your local instance (127.0.0.1:3306, database: saas).
 
 Click Apply changes.
+```
