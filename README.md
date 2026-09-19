@@ -38,7 +38,7 @@ The relational architecture models customer interactions across 8 primary entiti
 - Comparative trajectory of **Monthly Gross vs. Net Revenue** isolating refund and failed charge deductions.
 - Billing transaction volume breakdown across `Success`, `Refunded`, and `Failed` statuses.
 
-![Executive Overview](Screenshot/page1_financial_overview.png)
+![Executive Overview](Screenshot/Page1.png)
 
 ---
 
@@ -48,7 +48,7 @@ The relational architecture models customer interactions across 8 primary entiti
 - **Stickiness (DAU/MAU Ratio)** normalized dynamically across active calendar cohorts (~5.7% across the full multi-year span, peaking at 15–20% during peak operations).
 - Cross-tier matrix auditing feature interaction distribution across `Starter`, `Professional`, and `Enterprise` accounts.
 
-![Product Adoption](Screenshot/page2_product_adoption.png)
+![Product Adoption](Screenshot/Page2.png)
 
 ---
 
@@ -57,14 +57,14 @@ The relational architecture models customer interactions across 8 primary entiti
 - Channel-level acquisition efficiency benchmarking organic vs. paid ad spend multiples.
 - Dynamic cross-filtered SLA resolution buckets (`Fast <= 24h`, `Standard 1-3d`, `Delayed > 3d`) evaluated against subscription churn rates.
 
-![Marketing & Support SLA](Screenshot/page3_marketing_sla.png)
+![Marketing & Support SLA](Screenshot/Page3.png)
 
 ---
 
 ### Python User Cohort Retention Heatmap
 *Visualizing month-over-month lifecycle retention decay and churn drop-offs.*
 
-![Cohort Retention](Screenshot/retention_cohort_heatmap.png)
+![Cohort Retention](Screenshot/Cohort%20Heatmap.png)
 
 ---
 
